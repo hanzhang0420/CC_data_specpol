@@ -1,0 +1,5 @@
+from scipy import misc
+from scipy import ndimage
+gauss_denoised = ndimage.gaussian_filter(U/I, 2)
+plt.plot(wavet,gauss_denoised)
+plt.show()

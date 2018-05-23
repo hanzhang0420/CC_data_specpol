@@ -1,0 +1,53 @@
+<GTC4-15AGCAN_0021> Quality Control
+====================================
+
+Summary
+-------
+observing conditions:	 Ok. 
+instrument setup:        Ok.
+coordinates:		 Ok. Standard star for spectropolarimetry calibration.
+image quality:		 Ok.
+calibrations:            Ok. No standar for SiQ ratio provided.
+                         
+
+
+NOTES: Polarimetric Calibration STD for OB GTC4-15AGCAN_0020. Image quality 0.5 arcsec in the acquisition image. PWV=10.2mm.   
+
+
+GRANTECAN would appreciate your feedback on the observations and on the observing process.
+For this, a feedback form is available at http://www.gtc.iac.es/science/feedback/feedback.php 
+
+
+Requirements
+------------
+
+   req. IQ     actual IQ    req PWV actual PWV      req. cloud    actual cloud    req. moon  actual moon 
+       Any     0. 5          15       10.0          	Clear	   Photometric        Any         Bright 
+
+
+-----
+
+Requested
+---------
+
+OB              	insMODE              RA              DEC       SlitW       SLITANGLE       CHOPANGLE       CHOPTHROW       NODANGLE       NODTHROW       IQ       PWV       Templ       GRISM       EXPTIME       NEXP       OFFSETRA       OFFSETDEC       REPEATER
+
+GTC4-15AGCAN	canaricam_SPOL	 	16:27:09.5 	-24:37:18.0	1.04		72		180		8		0		8	0.6	  10		1	LowRes-10	200	1	-	-	1
+
+
+
+<GTC4-15AGCAN_0021> 
+-------------------
+
+IMAGE                                                                                 GTCPRGID  GTCOBID                                             OBJECT                           RA              DEC         OBJTIME       AIRMASS   ELAPSED PWVMON       DATE          UT1         OBSMODE  INSTRPA    CHPPA CHPTHROW    NODPA NODTHROW              NODMODE            FILTER1            FILTER2         WINDOW        GRATING          PRISM           LYOT            HWP     WPLATE       SECTOR           SLIT         READMODE   M2CEBAFL   M2INFLAP   M2EXFLAP         ALARM_1         ALARM_2         ALARM_3        OBSCLASS         OBSTYPE 	COMPSTAT           	                                        
+
+
+0000800953-20150704-CANARICAM-Imaging.fits                                       GTC4-15AGCAN                    0021 CAL_Elias29                  +16:27:09.271   -24:37:24.857     69.50   2.117    195.17   0.00 2015-07-05   00:57:36.1        chop-nod   72.000     -0.0     8.00   -180.0     8.00             parallel            Si2-8.7               Open           ZnSe         Mirror           Open          Circ1           Open   0.000000         Open           Open             S1R3       OPEN    RETRACT    RETRACT            none            none            none             ACQ      OTHER_TYPE 	COMPLETE          	                                         
+0000800954-20150704-CANARICAM-Imaging-REDUCEDFROM-0000800953.fits                GTC4-15AGCAN                    0021 CAL_Elias29                  +16:27:09.271   -24:37:24.857     69.50   2.117    195.17   0.00 2015-07-05   00:57:36.1        chop-nod   72.000     -0.0     8.00   -180.0     8.00             parallel            Si2-8.7               Open           ZnSe         Mirror           Open          Circ1           Open   0.000000         Open           Open             S1R3       OPEN    RETRACT    RETRACT            none            none            none             ACQ      OTHER_TYPE 	COMPLETE          	                                         
+0000800955-20150704-CANARICAM-Imaging.fits                                       GTC4-15AGCAN                    0021 CAL_Elias29                  +16:27:09.271   -24:37:24.857     69.50   2.181    195.16   0.00 2015-07-05   01:04:52.0        chop-nod   72.000     -0.0     8.00   -180.0     8.00             parallel            Si2-8.7               Open           ZnSe         Mirror           Open          Circ1           Open   0.000000         Open          1.04"             S1R3       OPEN    RETRACT    RETRACT            none            none            none             ACQ      OTHER_TYPE 	COMPLETE          	                                         
+0000800956-20150704-CANARICAM-Imaging-REDUCEDFROM-0000800955.fits                GTC4-15AGCAN                    0021 CAL_Elias29                  +16:27:09.271   -24:37:24.857     69.50   2.181    195.16   0.00 2015-07-05   01:04:52.0        chop-nod   72.000     -0.0     8.00   -180.0     8.00             parallel            Si2-8.7               Open           ZnSe         Mirror           Open          Circ1           Open   0.000000         Open          1.04"             S1R3       OPEN    RETRACT    RETRACT            none            none            none             ACQ      OTHER_TYPE 	COMPLETE          	                                         
+0000800957-20150704-CANARICAM-SpectroPolarim.fits                                GTC4-15AGCAN                    0021 CAL_Elias29                  +16:27:09.271   -24:37:24.857    264.76   2.316    826.97   0.00 2015-07-05   01:11:36.7    chop-nod-pol   72.000     -0.0     8.00   -180.0     8.00             parallel               Open            N-10.36           ZnSe      LowRes-10  Prism-in-path          Circ1       hwp_10um  67.500000         Open          1.04"             S1R3       OPEN    RETRACT    RETRACT            none            none            none           CALIB           POLAR 	COMPLETE          	                                         
+0000800958-20150704-CANARICAM-SpectroPolarim-REDUCEDFROM-0000800957.fits         GTC4-15AGCAN                    0021 CAL_Elias29                  +16:27:09.271   -24:37:24.857    264.76   2.316    826.97   0.00 2015-07-05   01:11:36.7    chop-nod-pol   72.000     -0.0     8.00   -180.0     8.00             parallel               Open            N-10.36           ZnSe      LowRes-10  Prism-in-path          Circ1       hwp_10um  67.500000         Open          1.04"             S1R3       OPEN    RETRACT    RETRACT            none            none            none           CALIB           POLAR 	COMPLETE          	                                         
+
+
+...
